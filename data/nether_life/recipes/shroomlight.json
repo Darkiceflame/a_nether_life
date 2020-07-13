@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:crimson_fungus"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      }
+    ],
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:shroomlight"
+  }
+}
