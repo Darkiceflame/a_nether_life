@@ -19,5 +19,9 @@ replaceitem entity @a[nbt={SelectedItem:{id:"minecraft:soul_campfire"}}] weapon.
 replaceitem entity @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:soul_campfire"}]}] weapon.offhand minecraft:soul_campfire{BlockStateTag:{lit:"false"}}
 
 #ZOMBIFIED PIGLINS ARE CALLED ZOMBIE PIGLINS
+<<<<<<< HEAD
 execute as @e[type=zombified_piglin] run data merge entity @s {CustomNameVisible:0b,CustomName:'{"text":"Zombie Piglin"}'}
 
+=======
+execute as @e[type=zombified_piglin] run data merge entity @s {CustomNameVisible:0b,CustomName:'{"text":"Zombie Piglin"}'}
+>>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059

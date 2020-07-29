@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",
@@ -62,10 +63,29 @@
   "starts": [
     "minecraft:ruined_portal_nether",
     "minecraft:nether_fossil",
+=======
+  "starts": [
+    "minecraft:ruined_portal_nether",
+>>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059
     "minecraft:fortress",
     "minecraft:bastion_remnant"
   ],
   "spawners": {
+<<<<<<< HEAD
+=======
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "weight": 60,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+>>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059
     "monster": [
       {
         "type": "minecraft:ghast",
@@ -103,6 +123,7 @@
         "minCount": 1,
         "maxCount": 3
       }
+<<<<<<< HEAD
     ],
     "creature": [
       {
@@ -124,4 +145,75 @@
   "category": "nether",
   "depth": 0.1,
   "scale": 0.2
+=======
+    ]
+  },
+  "spawn_costs": {},
+  "sky_color": 7254527,
+  "surface_builder": "minecraft:nether",
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_quartz_nether",
+      "minecraft:ore_debris_large",
+      "minecraft:ore_debris_small"
+    ],
+    [
+      "minecraft:spring_lava",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
+    ]
+  ],
+  "scale": 0.2,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.nether_wastes",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "fog_color": 3344392,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "precipitation": "none",
+  "category": "nether",
+  "depth": 0.1
+>>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059
 }
