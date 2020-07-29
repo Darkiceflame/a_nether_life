@@ -111,7 +111,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mushroom stems do not require silk touch to obtain
 - Mushroom stems can be crafted into oak planks
 - Blazes now spawn rarely in nether waste biomes.
-<<<<<<< HEAD
 - Added future support for increasing the maximum height in the Nether, dependant on MC-187904 being fixed
 
 ## [1.1.1] - 2020-29-7
@@ -119,6 +118,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed file structure to work with 1.16.2 Pre-release 1
 - Fossils and Soul Monuments now have a chance to spawn in Nether Wastes biomes
 - Blazes now spawn in Crimson forests and Basalt Deltas in addition to Nether Wastes
-=======
-- Added future support for increasing the maximum height in the Nether, dependant on MC-187904 being fixed
->>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059

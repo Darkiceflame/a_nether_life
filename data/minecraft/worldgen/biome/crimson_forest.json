@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.crimson_forest.mood",
@@ -29,49 +28,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-=======
-  "starts": [
-    "minecraft:ruined_portal_nether",
-    "minecraft:fortress",
-    "minecraft:bastion_remnant"
-  ],
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "weight": 60,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "monster": [
-      {
-        "type": "minecraft:zombified_piglin",
-        "weight": 1,
-        "minCount": 2,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:hoglin",
-        "weight": 9,
-        "minCount": 3,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:piglin",
-        "weight": 5,
-        "minCount": 3,
-        "maxCount": 4
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "sky_color": 7254527,
->>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059
   "surface_builder": "minecraft:crimson_forest",
   "carvers": {
     "air": [
@@ -102,10 +58,6 @@
     ],
     [
       "minecraft:spring_lava",
-<<<<<<< HEAD
-=======
-	  "minecraft:mushroom_field_vegetation"
->>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:weeping_vines",
@@ -113,7 +65,6 @@
       "minecraft:crimson_forest_vegetation"
     ]
   ],
-<<<<<<< HEAD
   "starts": [
     "minecraft:ruined_portal_nether",
     "minecraft:fortress",
@@ -166,40 +117,4 @@
   "category": "nether",
   "depth": 0.1,
   "scale": 0.2
-=======
-  "scale": 0.2,
-  "temperature": 2.0,
-  "downfall": 0.0,
-  "effects": {
-    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
-    "mood_sound": {
-      "sound": "minecraft:ambient.crimson_forest.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "additions_sound": {
-      "sound": "minecraft:ambient.crimson_forest.additions",
-      "tick_chance": 0.0111
-    },
-    "music": {
-      "sound": "minecraft:music.nether.crimson_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
-    "fog_color": 3343107,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "particle": {
-      "options": {
-        "type": "minecraft:crimson_spore"
-      },
-      "probability": 0.025
-    }
-  },
-  "precipitation": "none",
-  "category": "nether",
-  "depth": 0.1
->>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059
 }

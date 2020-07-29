@@ -1,10 +1,6 @@
 {
   "config": {
-<<<<<<< HEAD
     "probability": 0.2
-=======
-    "probability": 0.23
->>>>>>> edd1911eef13c09a84747d7df3ea8027f90a8059
   },
   "name": "minecraft:nether_cave"
 }
