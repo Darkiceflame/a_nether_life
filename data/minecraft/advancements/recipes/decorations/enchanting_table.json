@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:enchanting_table",
+	  "nether_life:obsidian_from_water_and_lava"
+    ]
+  },
+  "criteria": {
+    "has_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:obsidian"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:enchanting_table"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_obsidian",
+      "has_the_recipe"
+    ]
+  ]
+}

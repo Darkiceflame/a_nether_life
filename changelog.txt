@@ -1,0 +1,120 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [1.0.0] - 2020-05-02
+### Changes
+- Players spawn in the Nether when starting the game and upon death
+- Various recipes requiring Stone or its variants changed to accept Nether materials
+	- Stone tools (Basalt)
+	- Furnace (Basalt)
+	- Blast Furnace (Nether Bricks)
+	- Grindstone (Nether Brick slab)
+	- Lever (Basalt)
+	- Stonecutter (Basalt)
+- Mushroom Stew can be crafted using one Brown Mushroom or Warped Fungi, and one Red Mushroom or Crimson Fungi respectively
+- Shroomlight can be crafted using 5 Glowstone Dust and 4 of any mushroom using the same pattern as TNT
+- Soul Sand can be smelted into Glass using a Furnace
+- Stem blocks can be smelted into charcoal
+- Nether Quartz can be smelted in a Furnace to produce one Iron Nugget, or in a Blast Furnace to produce one Iron Ingot
+- Nether Quartz Ore will only drop Nether Quartz when mined with a Stone Pickaxe or better
+- Various blocks only drop when using an appropriate tool or Silk Touch
+	- Crimson Nylium (Silk Touch, drops Netherrack otherwise)
+	- Crimson Roots (Shears)
+	- Nether Sprouts (Shears)
+	- Nether Wart Block (Shears)
+	- Shroomlight (Shears, drops Glowstone Dust otherwise)
+	- Warped Nylium (Silk Touch, drops Netherrack otherwise)
+	- Warped Roots (Shears)
+	- Warped Wart Block (Shears)
+	- Weeping Vines (Shears)
+- Nether Wart Block has a chance to drop Crimson Fungi when broken
+- Warped Wart Block has a chance to drop Warped Fungi when broken
+- Hoglins drop 2-4 Raw Porkchop and 0-2 Leather when killed
+- Ghasts' line of sight reduced to 50 meters (May be reverted if Mojang tweaks their currently ridiculously high spawn rate.
+
+## [1.0.1] - 2020-06-02
+### Changes
+- Fixed a bug which prevented the datapack from loading properly
+
+## [1.0.2] - 2020-07-02
+### Changes
+- Version updated to 20w07a
+- Blast Furnace recipe is now unlocked upon obtaining a furnace
+- Standing next to a lit campfire sets your spawnpoint
+- Wild Nether Wart has a chance to spawn in Soul Sand Valleys
+- Removed custom Hoglin loot table, as it was very similar to what is now its official loot table
+- Piglins drop 1-2 Raw Porkchops upon death
+- Piglins have a small chance to give Diamonds when bartered with
+
+## [1.0.3] - 2020-07-02
+### Changes
+- Names of crimson fungus and warped fungus updated to reflect name changes in 20w09a
+- Zombified Piglins are now called Zombie Piglins because why Mojang
+- Spawnpoint setting is now done by standing on top of Crying Obsidian
+- Crying Obsidian can be crafted with Obsidian and Lapis Lazuli
+- Lapis Lazuli can now be found in Nether Fortresses, and as a possible loot drop from Piglin bartering
+- Obsidian can be crafted by combining a Bucket of Water with a Bucket of Lava in the crafting grid
+
+## [1.0.4] - 2020-11-03
+### Changes
+- Updated Piglin bartering loot to match 20w11a
+- Twisting Vines require shears to harvest
+- Nether Wart, Warped Wart and Shroomlight can no longer be harvested with shears. You'll need a Silk Touch hoe to harvest the full blocks.
+- A loot table was added to the Wither with lots of neat stuff that won't actually spawn because Mojang hates fun.
+
+## [1.0.5] - 2020-18-3
+### Changes
+- Basalt can no longer be used to make stone items. Instead it can be combined with gravel to make cobblestone.
+- Crying Obsidian no longer sets the player's spawnpoint, as that role is now filled by the Respawn Anchor.
+
+## [1.0.6] - 2020-25-3
+### Changes
+- Simplified the initial spawning system.
+- Updated Piglin bartering loot table to reflect 20w13a changes.
+- Piglins may give carrots when bartering.
+- Fixed a bug that stopped Nether Logs from being smelted into Charcoal.
+- Course dirt can be crafted by combining Soul Soil with Gravel.
+
+## [1.0.7] - 2020-25-3
+### Changes
+- Fixed a bug which caused players to get their starting buffs infinitely.
+- Nether Logs now unlock Charcoal in the recipe book.
+
+## [1.0.8] - 2020-8-4
+### Changes
+- Crafting basalt with gravel now makes Blackstone instead of Cobblestone.
+- Ghast range is now the default 100 blocks again because the new attribute syntax is annoying.
+- Blast Furnaces can now be crafted using Polished Blackstone.
+- Gilded Blackstone can be crafted using Blackstone and Gold Nuggets.
+- Changed the way spawning works to avoid players suffocating in walls when first starting.
+- Players will now get a special tool to help with the first few minutes after spawning.
+
+## [1.0.9] - 2020-10-4
+### Changes
+- A platform will be spawned when the player first loads into the Nether, making them slightly less likely to fall into lava.
+- A new structure now spawns in Soul Sand Valleys. Perhaps it holds a secret?
+
+## [1.1.0] - 2020-8-7
+### Changes
+- Players will no longer spawn above lava when first loading the world
+- Players are given Invisibility for one minute when first loading the world
+- Updated Piglin bartering list for 20w28a
+- Soul campfires start unlit when placed to reflect campfires.
+- Piglin Brutes always spawn with a golden helmet with a 100% drop chance.
+- Crimson and warped logs can no longer be smelted into charcoal
+- Mushrooms planted on netherrack can be grown into huge mushrooms
+- Mushroom stems do not require silk touch to obtain
+- Mushroom stems can be crafted into oak planks
+- Blazes now spawn rarely in nether waste biomes.
+- Added future support for increasing the maximum height in the Nether, dependant on MC-187904 being fixed
+
+## [1.1.1] - 2020-29-7
+### Changes
+- Changed file structure to work with 1.16.2 Pre-release 1
+- Fossils and Soul Monuments now have a chance to spawn in Nether Wastes biomes
+- Blazes now spawn in Crimson forests and Basalt Deltas in addition to Nether Wastes
